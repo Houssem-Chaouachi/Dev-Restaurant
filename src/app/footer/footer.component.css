@@ -1,0 +1,29 @@
+.footer{
+    padding-top:3rem;
+    background-color: #292929;
+    color:#fff
+}
+.footer-text{
+    color: #ababab;
+}
+
+.footer-style{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.footer-style:hover{
+    color: #ffffff;
+}
+.display-grid{
+    display: grid;
+}
+.footer-icon{
+    color: #067c7b;
+}
+
+.copyright{
+    background-color: #292929;
+    border-top: solid 1px #545454;
+
+}
