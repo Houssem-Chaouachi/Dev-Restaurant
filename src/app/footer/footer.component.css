@@ -12,14 +12,42 @@
     border: none;
     text-decoration: none;
 }
-.footer-style:hover{
-    color: #ffffff;
-}
+
 .display-grid{
     display: grid;
 }
 .footer-icon{
     color: #067c7b;
+}
+.max-container{
+    width: max-content;
+}
+.fl{
+    float: right;
+}
+.dev-size{
+    font-size: 40px;
+}
+
+.btn-social-fb  {
+    border-radius: 50%; 
+    background-color:#3B5999;
+    color: #fff; 
+}
+.btn-social-tw  {
+    border-radius: 50%; 
+    background-color:#55ACEE;
+    color: #fff; 
+}
+.btn-social-in  {
+    border-radius: 50%; 
+    background-color:#E4405F;
+    color: #fff; 
+}
+.btn-social-li  {
+    border-radius: 50%; 
+    background-color:#0077B5;
+    color: #fff; 
 }
 
 .copyright{

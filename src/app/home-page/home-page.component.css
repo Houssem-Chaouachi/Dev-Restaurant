@@ -1,0 +1,11 @@
+.bg-cover{
+   height: 1080px;
+  background-size: contain;
+  background-repeat:no-repeat;
+   background-image: url(C:\Users\houss\Test\DevResturent\src\assets\Bg-home.png);
+}
+.size{
+   max-width: 100%;
+   max-height: 100%;
+   
+}
