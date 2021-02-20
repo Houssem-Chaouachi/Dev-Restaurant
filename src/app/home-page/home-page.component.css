@@ -1,11 +1,22 @@
 .bg-cover{
-   height: 1080px;
+   height: 855px;
   background-size: contain;
   background-repeat:no-repeat;
    background-image: url(C:\Users\houss\Test\DevResturent\src\assets\Bg-home.png);
 }
+.home-style{
+position: absolute;
+    top: 160px;
+    left: 107px;
+    color: white;
+}
+
+
 .size{
-   max-width: 100%;
-   max-height: 100%;
-   
+text-transform: uppercase;
+font-size: 80px;
+}
+
+.size-a{
+   font-size: 45px;
 }
