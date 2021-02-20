@@ -6,3 +6,24 @@
 p{
     font-size: 16px;
 }
+
+/* instagram */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+  }
+
+
+
+
+
+.flex-item-abc{
+margin: 0 0 10px 10px;
+}
+
+.flex-item-abc img{
+
+width: 90px;
+}
