@@ -24,6 +24,7 @@
 }
 .fl{
     float: right;
+    margin-right: 35px;
 }
 .dev-size{
     font-size: 40px;
