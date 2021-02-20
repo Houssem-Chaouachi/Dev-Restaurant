@@ -94,3 +94,8 @@
 .mb{
     margin-bottom: 70px;
 }
+
+.btn-dark{
+    border-radius: initial;
+    padding: 10px 30px;
+}
