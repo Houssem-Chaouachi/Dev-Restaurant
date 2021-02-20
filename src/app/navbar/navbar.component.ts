@@ -11,5 +11,14 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  scrollToHome(): void {
+  document.getElementById('home')?.scrollIntoView({block: 'start', behavior: 'smooth'});
+}
+toAboutUs(): void {
+  document.getElementById('aboutUs')?.scrollIntoView({block: 'center', behavior: 'smooth'});
+}
+toMenu(): void {
+  // document.getElementById('menu').scrollIntoView({block: 'center', behavior: 'smooth' });
+  document.getElementById('menu')?.scrollIntoView({block:'center', behavior:'smooth'})
+}
 }
