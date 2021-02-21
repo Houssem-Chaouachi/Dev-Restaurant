@@ -1,0 +1,14 @@
+.scroll-to-top {
+     position: fixed;
+    bottom: 15px;
+    right: 25px;
+    font-size: 40px;
+    width: 44px;
+    height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    background: black;
+    color: white;
+    opacity: 0.7;
+  }
