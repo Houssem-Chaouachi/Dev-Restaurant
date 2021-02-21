@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsService } from '../products.service';
 
 @Component({
   selector: 'app-menu',
@@ -11,9 +12,13 @@ Lunch:boolean = false
 brunch:boolean = false
 Desert:boolean = false
 wine:boolean = false
-  constructor() { }
+
+menu?:any
+  constructor( private service:ProductsService) { }
 
   ngOnInit(): void {
+    this.menu= this.service.get()
+
   }
 
 }
